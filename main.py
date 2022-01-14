@@ -12,7 +12,7 @@ import csv
 import pandas as pd
 
 file = 'jordan_BYB_Recording_2021-09-30_12.59.02.wav'
-fs, data = waves.read(file)
+fs, data = waves.read(file) 
 
 length_data = np.shape(data)
 length_new = length_data[0] * 0.05
